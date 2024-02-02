@@ -54,7 +54,9 @@ Follow the prompts to input information about your project.
 ![Output](assets/preview.png)
 
 ## Walkthrough Video
-<video src="assets/demo.mp4" controls title="Demo Video"></video>
+
+https://github.com/Philip-Tom/9-NodeJS/assets/147503829/b6d33b54-dd10-4cd0-b5d0-a83bb9194e80
+
 
 
 

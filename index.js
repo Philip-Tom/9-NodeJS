@@ -8,15 +8,16 @@ const questions = require("./data/questions");
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFileSync(fileName, data);
-  console.log("README.md has been generated successfully!");
+  fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log("README.md generated successfully!")
+  );
 }
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
-    const readmeContent = generateMarkdown(answers);
-    writeToFile("README.md", readmeContent);
+    const markdownContent = generateMarkdown(answers);
+    writeToFile("output/README.md", markdownContent);
   });
 }
 

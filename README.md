@@ -1,39 +1,65 @@
+# Professional README Generator
 
-  # 09-NodeJS
+## Description
 
-  ## Description
-  HEllo
+Creating a high-quality README is essential for any open-source project on GitHub. The Professional README Generator simplifies this process by providing a command-line application that uses the Inquirer package to dynamically generate a professional README.md file based on user input.
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
- 
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Table of Contents
 
-  ## Installation
-  npm
+- [Installation](#installation)
+- [Usage](#usage)
+- [Walkthrough Video](#walkthrough-video)
+- [Screenshots](#screenshots)
+- [Questions](#questions)
+- [Acknowledgments](#acknowledgments)
 
-  ## Usage
-  Node index.js
+## Installation
 
-  
-  ## License
+To set up the project, follow these steps:
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+1. Clone the repository:
 
-  This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more details.
- 
+    ```bash
+    git clone https://github.com/Philip-Tom/9-NodeJS.git
+    ```
 
-  ## Contributing
-  
+2. Navigate to the project directory:
 
-  ## Tests
-  
+    ```bash
+    cd 9-NodeJS
+    ```
 
-  ## Questions
-  GitHub Profile: [Philip-Tom](https://github.com/Philip-Tom)
-  For additional questions, contact me via email: Pjurkin@gmail.com
-  
+3. Install the required dependencies:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+Generate a professional README by running the following command:
+
+```bash
+node index.js
+```
+
+Follow the prompts to input information about your project.
+
+## Screenshots
+
+### SnapShot of terminal input
+![Questions](assets/questions.png)
+
+### SnapShot of generated README Output
+![Output](assets/preview.png)
+
+## Walkthrough Video
+<video src="assets/demo.mp4" controls title="Demo Video"></video>
+
+
+
+## Questions
+If you have any questions or need further assistance, feel free to contact me:
+
+ - [Github](https://github.com/Philip-Tom)
+
